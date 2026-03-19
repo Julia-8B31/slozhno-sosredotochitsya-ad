@@ -9,51 +9,49 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-    --main-text-color: #f1b2ce;
-    --background-color: #000028;
-    --accent-color: #ff0070;
-    --decorative: #ff0070;
-    
-    --header-menu-button-hover-color: rgb(255 0 112 / 0.4);
-    --title-color: #ff0070;
-    --accent-title-color: #000028;
-    --bg-image: url(../images/cover-image-dark.png);
+  --main-text-color: #f1b2ce;
+  --background-color: #000028;
+  --accent-color: #ff0070;
+  --decorative: #ff0070;
+
+  --header-menu-button-hover-color: rgb(255 0 112 / 0.4);
+  --title-color: #ff0070;
+  --accent-title-color: #000028;
+  --bg-image: url(../images/cover-image-dark.png);
 }
 
 .theme-dark .page .header .decorated-title {
-    color: rgba(219, 0, 255, 1);
+  color: rgba(219, 0, 255, 1);
   /* Вам также нужно будет написать ряд подобных селекторов */
 }
 
 .theme-dark .page .footer .decorated-title {
-    color: rgba(219, 0, 255, 1);
+  color: rgba(219, 0, 255, 1);
 }
 
 .theme-dark .page .header__decor-element {
-    display: flex;
+  display: flex;
 }
 
 @media (prefers-color-scheme: dark) {
-    :root {
-        --main-text-color: #f1b2ce;
-        --background-color: #000028;
-        --accent-color: #ff0070;
-        --decorative: #ff0070;
-        --header-menu-button-hover-color: rgb(255 0 112 / 0.4);
-        --title-color: #ff0070;
-        --accent-title-color: #000028;
-        --visibility: visible;
-    }
+  :root {
+    --main-text-color: #f1b2ce;
+    --background-color: #000028;
+    --accent-color: #ff0070;
+    --decorative: #ff0070;
+    --header-menu-button-hover-color: rgb(255 0 112 / 0.4);
+    --title-color: #ff0070;
+    --accent-title-color: #000028;
+    --visibility: visible;
+  }
 
-    .page .header .decorated-title {
-        color: rgba(219, 0, 255, 1);
-        /* Вам также нужно будет написать ряд подобных селекторов */
-    }
+  .page .header .decorated-title {
+    color: rgba(219, 0, 255, 1);
+    /* Вам также нужно будет написать ряд подобных селекторов */
+  }
 
-    .page .header__decor-element {
-        display: flex;
-        visibility: visible;
-    }
-
-    
+  .page .header__decor-element {
+    display: flex;
+    visibility: visible;
+  }
 }
